@@ -1,0 +1,41 @@
+#bg
+{
+    background-color: rgb(233, 233, 225);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#trailer
+{
+    width: 1000px;
+    height: 520px;
+}
+
+.type1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.type2
+{
+    font-family: sans-serif;
+}
+
+.border
+{
+    background-color: rgb(132, 27, 132);
+    height: 70px;
+    width: 1000px;
+}
+
+.div
+{
+    border-style: dotted;
+}
+
+img
+{
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> NYUAD MOVIES </title>
+        <link rel= "stylesheet" href = "style.css" >
+        <script src="script.js"></script>
+    </head>
+    <body id = "bg">
+        <h1 class = "type1"> NYUAD MOVIES </h1>
+        <div class = "border">
+        <form name="form1" id="form1">
+            <center>
+                <br> 
+            <select name="cinema" id="cinema">
+                <option value="" selected="selected">Select Your Cinema</option>
+                <option value="" selected="selected">NYUAD ARTS CENTER</option>
+            </select>
+            <select name="movie" id="movie">
+                <option value="" selected="selected">Select Your Movie</option>
+                <option value="" selected="selected"> The Liberal Arts Students </option>
+            </select>
+            <input type="submit" value="Search">
+            </center>
+        </form>
+        </div>
+        <br> 
+        <h3 class = "type2"> The Liberal Arts Students (Official Trailer) </h3>
+        <iframe id = "trailer" src = "https://www.youtube.com/embed/e8iSlXf-WjY" > </iframe>
+        <br> <br>  
+        <div class = "class"> 
+        <p> <b> Description: </b> Freshman year student, Darko, seeks help from his peers to find a major to settle with. Will he choose one major after all? </p>
+        <p> <b> Genre: </b> Academic Comedy </p>
+        <p> <b> Age: </b> NYUAD Undergraduate </p>
+        <p> <b> Language: </b> English </p>
+        <p> <b> Starring: </b> Alreem AlAbbas, Diana Alibekova, Darko Skulikj, Sara Al Mehairi </p>
+        </div>
+        <br> <br>
+        <form>
+            <b> What do you think Darko will major in? </b>
+            <br> <br> 
+            <input type="checkbox" id="major1" name="major1" value="biology">
+            <label for="major1"> Biology</label><br>
+            <br>
+            <input type="checkbox" id="major2" name="major2" value="philosophy">
+            <label for="major2"> Philosophy </label><br>
+            <br>
+            <input type="checkbox" id="major3" name="major3" value="film">
+            <label for="major3"> Film </label>
+            <br> <br> 
+            <input type="checkbox" id="other" name="other" value="other">
+            <label for="other"> Other </label>
+        </form>
+        <br> <br>
+        <center>
+            <button onclick="myFunction()">View BTS</button>
+        </center>
+        <br> <br>
+        <div id="myDIV">
+            <img src = "img.jpg">
+            <img src = "img1.jpg">
+            <img src = "img2.jpg">
+        </div>
+        
+    </body>
+</html>
